@@ -32,6 +32,14 @@ docker run -itd 이미지 이름 /bin/bash
 생성된 컨테이너를 실행시키는 명령어
 docker exec -it 컨테이너이름 /bin/bash
 
+도커 이미지 저장
+docker commit [컨테이너이름] [저장할 이미지 이름]
+
+도커 컨테이너 변경 사항 확인
+docker diff [컨테이너이름]
+A : 추가된 파일
+C : 변경된 파일
+D : 삭제된 파일 
 
 
 우분투 다운로드 서버 변경
