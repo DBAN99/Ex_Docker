@@ -41,6 +41,14 @@ A : 추가된 파일
 C : 변경된 파일
 D : 삭제된 파일 
 
+도커 컨테이너 태그 저장 
+docker tag [컨테이너이름] [태그이름]
+
+도커 허브에 이미지 업로드
+docker push [아이디/도커허브이름:태그]
+
+
+
 
 우분투 다운로드 서버 변경
 sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list # 한국
