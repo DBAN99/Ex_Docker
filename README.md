@@ -48,8 +48,6 @@ docker tag [컨테이너이름] [태그이름]
 docker push [아이디/도커허브이름:태그]
 
 
-
-
 우분투 다운로드 서버 변경
 sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list # 한국
 sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list # 미국
